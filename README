@@ -1,0 +1,24 @@
+Muduo is a multithreaded C++ network library based on the reactor pattern.
+http://github.com/chenshuo/muduo
+
+But I didn't found there one openssl support.
+This is a client sample use SSL_BIO and muduo.
+This is a good sample for reactor networking library to use openssl.
+You can easily modify it to adapt  other networking library.
+
+
+How To Use?
+1.download and compile muduo library from http://github.com/chenshuo/muduo
+2.modify the Makefile to muduo library
+3.install openssl
+for centos: yum install openssl-devel
+for ubuntu: apt install openssl libssl-dev -y
+4.type make to compile this file.
+5.sslclient will be in this folder
+
+
+
+Reference:
+https://github.com/my-official/IOCP_SSL
+https://blog.csdn.net/xiaoqing_2014/article/details/79720913
+
