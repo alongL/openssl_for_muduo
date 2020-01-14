@@ -14,7 +14,7 @@ If you want to learn more about openssl in server side, please see reference 1
 
 # How To Use?
 1. download and compile muduo library from http://github.com/chenshuo/muduo  
-2. modify the Makefile to muduo library
+2. modify the Makefile to find muduo library
 3. install openssl  
   for centos: yum install openssl-devel  
   for ubuntu: apt install openssl libssl-dev -y  
