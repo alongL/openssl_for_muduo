@@ -25,9 +25,10 @@ If you want to learn more about openssl in server side, please see reference 1
 
 
 # Core tech
-Usually openssl is used only by SSL_read like 
-https://github.com/yedf/handy
-This will use openssl to read and write socket. In some case, the data is received by networking library, the program can just use the data already received by networking lib,  maybe you can try SSL_BIO to implement ssl socket.
+Usually openssl is implemented only by SSL_read and SSL_write like  
+ https://github.com/yedf/handy  
+This will use openssl to read and write socket.  
+In some case, the data is received by networking library, the user program can just use the data already received by networking lib,  maybe you can try SSL_BIO to implement ssl socket.
 
 1. use SSL_is_init_finished() to judge the handshake is ok.
 2. when you want to recv data :  
