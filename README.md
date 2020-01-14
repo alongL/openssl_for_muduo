@@ -26,7 +26,7 @@ If you want to learn more about openssl in server side, please see reference 1
 
 # Core tech
 Usually openssl is implemented only by SSL_read and SSL_write like  
- https://github.com/yedf/handy  
+ https://github.com/yedf/openssl-example  
 This will use openssl to read and write socket.  
 In some case, the data is received by networking library, the user program can just use the data already received by networking lib,  maybe you can try SSL_BIO to implement ssl socket.
 
