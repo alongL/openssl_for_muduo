@@ -7,7 +7,7 @@ This is a good sample for reactor networking library to use openssl.
 You can easily modify it to adapt  other networking library.
 
 
-# How To Use?
+#How To Use?
 1.download and compile muduo library from http://github.com/chenshuo/muduo
 2.modify the Makefile to adapt muduo library
 3.install openssl
@@ -19,7 +19,7 @@ You can easily modify it to adapt  other networking library.
 
 
 
-# Core tech
+#Core tech
 0. use SSL_is_init_finished() to judge the handshake is ok.
 
 1. when you want to recv data :
@@ -32,7 +32,7 @@ SSL_write   and  BIO_read
 
 
 
-# Reference:
+#Reference:
 https://github.com/my-official/IOCP_SSL
 https://blog.csdn.net/xiaoqing_2014/article/details/79720913
 
