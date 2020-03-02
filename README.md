@@ -1,4 +1,4 @@
-openssl_for_muduo client sample
+openssl_for_muduo client and server sample
 =======
 
 Muduo is a multithreaded C++ network library based on the reactor pattern.  
