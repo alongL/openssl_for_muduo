@@ -36,6 +36,9 @@ BIO_write   and  SSL_read
 3. when you want to send data:  
 SSL_write   and  BIO_read
 
+# More
++ This code is just example. The best method to use ssl is to implement  SSL-TcpConnection to handle data receive and send. 
+
 
 # Reference:
 1. https://github.com/my-official/IOCP_SSL
